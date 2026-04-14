@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{19837405-E31E-4B16-9378-289A0699B6DB}" SchemaVersion="133">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{19837405-E31E-4B16-9378-289A0699B6DB}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Spellcasting_States" ID="{7F48900D-A2C0-44DF-B52F-3DE78A5E5943}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{5751BEC3-688A-4CBA-BE86-023D7B718C8F}"/>
+						<State Name="Spellcasting_Grimoire" ID="{D409854E-B984-4FE4-898B-261C560BBB7D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+						<State Name="Spellcasting_Staff" ID="{8889528B-8251-4ACE-B9EA-5E9CEDF3CEBF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Walking_Surface" ID="{94502681-283E-4135-B999-210AFB3ABF45}">
+					<ChildrenList>
+						<State Name="None" ID="{CBE23F21-88DE-478C-9E11-7547F76A8DD4}"/>
+						<State Name="Dirt" ID="{68B358A3-4C41-42D1-80FC-6F36B1960DAE}"/>
+						<State Name="Grass" ID="{1F0FA531-D83C-4315-A40E-28678A3B6FDB}"/>
+						<State Name="Marble" ID="{AE3C18DB-0901-4E43-A1E3-F487614FFFD6}"/>
+						<State Name="Stone" ID="{E1BDA652-30A3-4686-A38C-3EB1D2D5FABE}"/>
+						<State Name="Wood" ID="{38207010-0619-4791-B3A3-FAA4D844F7B2}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C667DE70-4F8E-43B6-B7C5-73E747C91244}" SchemaVersion="133" RootDocumentID="{8871FCE7-59E7-40EB-8717-638CD895D8BE}" ParentDocumentID="{8871FCE7-59E7-40EB-8717-638CD895D8BE}">
+	<Events>
+		<WorkUnit Name="Player_Character" ID="{C667DE70-4F8E-43B6-B7C5-73E747C91244}" OwnerID="{8871FCE7-59E7-40EB-8717-638CD895D8BE}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="PC_Spell" ID="{EA3CC766-67C5-4199-9C9F-F85CAB70BE12}" ShortID="335264315">
+					<ChildrenList>
+						<Folder Name="Spell_Events" ID="{D54FAE2D-BB84-4D6F-B246-BA2A31108ACD}" ShortID="202662662">
+							<ChildrenList>
+								<Folder Name="Spellcasting" ID="{57AB74BA-9D03-4DB0-822A-72F2C997ABD8}" ShortID="909904199">
+									<ChildrenList>
+										<Folder Name="Staff_Casting" ID="{A90A505F-E077-4E22-A313-A284E62BD499}" ShortID="572778332">
+											<Comment>Need to make Blink, Fireball, Heal &amp; Shield Cast Triggers
+</Comment>
+											<ChildrenList>
+												<Event Name="Staff_Firebolt_Cast" ID="{DF237C11-1161-4A09-A62C-15DF20728998}">
+													<ChildrenList>
+														<Action Name="" ID="{91F79BD7-6EB1-4440-A794-B4C53C901BA2}" ShortID="987387957">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Staff_Cast_SFX" ID="{D88000FB-990B-4582-9F9D-809680BC188C}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{8CE133B9-A15F-484C-9BF4-4BDDC9CD0B53}" ShortID="909328376">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Firebolt_Cast" ID="{3141093C-6A4D-4723-AE35-FBD7149F833A}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Staff_Ice_Knife_Cast" ID="{3DF04304-750F-4B04-B0E7-BEBCF6B8493A}">
+													<ChildrenList>
+														<Action Name="" ID="{23BD9BCD-463C-41C4-ADD4-58923EDB9EAA}" ShortID="629141401">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Staff_Cast_SFX" ID="{D88000FB-990B-4582-9F9D-809680BC188C}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{287D67A4-B85B-4191-9B0E-AE6BFFA5D4B9}" ShortID="231900357">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Ice_Knife_Cast" ID="{8B3F480B-54B1-45E3-AEDD-BF84FB7D04CF}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Spells_Midair" ID="{4CF111C4-129D-4E14-9EE0-4D5CA9BEEC20}" ShortID="238539553">
+											<ChildrenList>
+												<Event Name="Start_Firebolt_Midair" ID="{38142CCD-F1EB-4E5D-A1EA-C3202D2FFDBA}">
+													<ChildrenList>
+														<Action Name="" ID="{E7BDC8FC-1814-4B75-9DC4-278E54A4F6CC}" ShortID="273992432">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Firebolt_Midair" ID="{C07D027C-96FC-4153-AA29-C9F87459C85F}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Stop_Firebolt_Midair" ID="{EBE1E8EC-1DF8-4890-BA9C-F7F9B606E5B5}">
+													<ChildrenList>
+														<Action Name="" ID="{FFFC6A09-C07C-49CD-926B-3FF0ECC29ECC}" ShortID="754313530">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Firebolt_Midair" ID="{C07D027C-96FC-4153-AA29-C9F87459C85F}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Spells_Impact" ID="{33E01741-D954-44E5-AFF6-C6DDC82B063D}" ShortID="272863264">
+											<ChildrenList>
+												<Event Name="Firebolt_Impact" ID="{D79732DC-0E13-4F96-8AA4-C71AF59314FA}">
+													<ChildrenList>
+														<Action Name="" ID="{3DB49E25-DFB2-4C4F-9A3C-15CFFFFA3F25}" ShortID="486255074">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Firebolt_Impact" ID="{A128AC24-AE62-4A85-A29D-B6308CD96A27}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Footsteps" ID="{67AB078A-814B-4A4F-9C68-56C0E4202521}" ShortID="422971688">
+					<ChildrenList>
+						<Event Name="FS_Player" ID="{DD489504-1851-41EE-A9CB-F274D5CDAE22}">
+							<ChildrenList>
+								<Action Name="" ID="{386FC30B-0A07-4938-AF62-8B7E3B25CC5F}" ShortID="203844206">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_Switch_Container" ID="{77C23CBB-683A-4ACC-B571-B1461435BC1B}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

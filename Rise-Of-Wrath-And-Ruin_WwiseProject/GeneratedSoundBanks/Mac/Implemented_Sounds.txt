@@ -1,0 +1,76 @@
+Event	ID	Name			Wwise Object Path	Notes
+	157611648	FS_Player			\Default Work Unit\Player_Character\Footsteps\FS_Player	
+	692113986	Stop_Firebolt_Midair			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Firebolt\Stop_Firebolt_Midair	
+	953323285	Play_Shield_Summon			\Default Work Unit\Play_Shield_Summon	
+	1736150122	Play_Shield_Impact			\Default Work Unit\Play_Shield_Impact	
+	1975303464	Start_Firebolt_Midair			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Firebolt\Start_Firebolt_Midair	
+	2128022953	Staff_Firebolt_Cast			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Firebolt\Staff_Firebolt_Cast	
+	2516359593	Play_Shield_Break			\Default Work Unit\Play_Shield_Break	
+	2618147347	Play_Weapon_Draw			\Default Work Unit\Play_Weapon_Draw	
+	2838936948	Play_Rain			\Default Work Unit\Play_Rain	
+	3206237490	Stop_Rain			\Default Work Unit\Stop_Rain	
+	3407841817	Firebolt_Impact			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Firebolt\Firebolt_Impact	
+	3739832523	Play_Weapon_Impact			\Default Work Unit\Play_Weapon_Impact	
+	3932449222	Play_Shield_Loop			\Default Work Unit\Play_Shield_Loop	
+	4119716168	Stop_Shield_Loop			\Default Work Unit\Stop_Shield_Loop	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	63790334	SurfaceType			\Default Work Unit\PC_Switches\FootSteps\SurfaceType	
+
+Switch	ID	Name	Switch Group			Notes
+	982177701	Hay	SurfaceType			
+	4248645337	Grass	SurfaceType			
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	124953197	Modulator Envelope (Custom)				
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
+	352130103	Birds			\Default Work Unit\Master Audio Bus\Ambient\Birds	
+	966360136	PC_Spells			\Default Work Unit\Master Audio Bus\Player\PC_Spells	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\Ambient\Environment	
+	1781417190	Enemy_Attack			\Default Work Unit\Master Audio Bus\Enemies\Enemy_Attack	
+	2042825534	Other_Amient			\Default Work Unit\Master Audio Bus\Ambient\Other_Amient	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\Enemies	
+	3144539142	PC_Footsteps			\Default Work Unit\Master Audio Bus\Player\PC_Footsteps	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	403193505	Time Stretch (Custom)	Wwise Time Stretch			
+	748172160	RoomVerb (Custom)	Wwise RoomVerb			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	665745431	Synth One	Wwise Synth One		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Shield\Shield_Loop\Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	107394852	Grass_Step_05	.cache\DF\{DF8D927B-C59D-AA47-87FC-E3FFDB1D01B2}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_05		50004
+	192150934	Firebolt_Midair	.cache\AF\{AF8AEF49-BFE9-E34F-D14F-E9FEA1717227}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Firebolt\Firebolt_Midair		834626
+	206481213	Grass_Step_06	.cache\12\{12F56F33-C54D-31F8-D6DD-01883AF2EE48}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_06		58548
+	213077414	Malet_On_Wood_Metal_on_wood	.cache\E1\{E1EEE040-939A-4F45-058B-D38920472146}.wem		\Containers\Default Work Unit\Unused Sounds\Malet_On_Wood_Metal_on_wood		9126200
+	270724969	Walking_rocks_leaves003	.cache\31\{31F0B92C-B6B6-2E2B-DE58-D3ED02462774}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003		126804
+	308133649	Foot_Tap_Cast_SFX	.cache\B1\{B115FA92-C8E7-5F15-6AD3-77B0358091AE}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spellcasting_Methods\Foot_Tap_Cast_SFX		32050
+	328295729	Firebolt_Cast	.cache\98\{98EC8A56-7250-8F06-876E-EED131AA8CFC}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Firebolt\Firebolt_Cast		94336
+	392593433	Weapon_Impact	.cache\9A\{9A3A3838-2E12-E1FC-D2BF-D7F8A57DFFFC}.wem		\Containers\Default Work Unit\Enemies\Attacks\Weapon_Impact		38828
+	412991690	Finger_Snap_SFX	.cache\D5\{D57406E0-6361-3353-699E-E44C9D39DDD6}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spellcasting_Methods\Finger_Snap_SFX		9126200
+	432862632	Whip Bird	.cache\5B\{5B58E395-3923-6955-8A84-20783D0C3DE4}.wem		\Containers\Default Work Unit\Ambient\Animals\Whip Bird		347530
+	451296781	Shield_Summon	.cache\0E\{0E327306-6125-D6CB-B6EF-9DDD49F24A71}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Shield\Shield_Summon		35556
+	528418868	Grass_Step_03	.cache\96\{963182A8-4407-CF9E-35F4-E0758BA567B1}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_03		57672
+	584564127	Staff_Cast_SFX	.cache\E5\{E51C3152-FE6A-974C-3ECE-7BE9C5161326}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spellcasting_Methods\Staff_Cast_SFX		24252
+	585190813	Weapon_Draw	.cache\1D\{1DE66B9C-04FA-2B72-5A2C-BBB8B6261F5C}.wem		\Containers\Default Work Unit\Enemies\Attacks\Weapon_Draw		38498
+	603186303	Walking_rocks_leaves003_03	.cache\38\{38CAD340-3C3D-1C12-C570-ABA39BD1B68C}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003_03		93844
+	607590977	New Sound SFX	.cache\EE\{EEA9E9D3-BCD0-EEC3-5CFA-CC86B82BC03D}.wem		\Containers\Default Work Unit\Unused Sounds\New Sound SFX		9126200
+	664436129	Shield_Break	.cache\0D\{0D625CC4-8025-A7A4-A0A1-5BE748BAA872}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Shield\Shield_Break		58550
+	707616931	Shield_Impact	.cache\FC\{FC52FB85-34EC-C24A-56B5-8525D9D6F54F}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Shield\Shield_Impact		35914
+	717066486	Wood_Plane_Wood Plane	.cache\4F\{4F7105BE-7F12-0540-1A99-6E063862A733}.wem		\Containers\Default Work Unit\Unused Sounds\Wood_Plane_Wood Plane		9126200
+	746163082	Mystery Bird 2	.cache\DA\{DAC14BF0-B549-79AE-A6C3-9A5F5F1784BE}.wem		\Containers\Default Work Unit\Ambient\Animals\Mystery Bird 2		747016
+	773690356	Firebolt_Impact	.cache\94\{940BC4EA-6285-FBFE-C59A-F05A0954B97B}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Firebolt\Firebolt_Impact		36794
+	788946091	Walking_rocks_leaves003_01	.cache\2C\{2C5DAB66-EB9E-ADC5-58F0-019427BE968A}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003_01		57064
+	833372557	Grass_Step_01	.cache\2C\{2CFDB7D6-0D7C-7274-F096-1F1C71A20DC7}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_01		60000
+	850747584	Walking_rocks_leaves003_02	.cache\9B\{9BF8E083-66BA-421B-52E8-973F333CDA57}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003_02		84376
+	852890011	Grass_Step_02	.cache\EA\{EAC8AB78-D40D-8B64-64CC-B3265C39C6A5}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_02		77484
+	888910239	Shaving_Wood_Shaving_wood	.cache\90\{9010DF81-CC77-6CCA-43A2-4FFA8676C1F5}.wem		\Containers\Default Work Unit\Unused Sounds\Shaving_Wood_Shaving_wood		9126200
+	1031066534	Grass_Step_04	.cache\B9\{B9928F97-8776-77B5-0D3E-5D37572EFFE3}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_04		65372
+	1068600451	Rain	.cache\D5\{D591986F-87E8-CC64-A099-A93DB1AD6D9B}.wem		\Containers\Default Work Unit\Ambient\Environ\Rain		69120160
+

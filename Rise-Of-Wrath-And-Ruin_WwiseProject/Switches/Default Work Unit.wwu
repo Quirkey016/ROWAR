@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06E69DF4-4D18-44CE-B9E6-F436EF6D9ED8}" SchemaVersion="133">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{06E69DF4-4D18-44CE-B9E6-F436EF6D9ED8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PC_Switches" ID="{58AAC2C4-2E40-4016-87DF-DE94C258D99C}" ShortID="644248879">
+					<ChildrenList>
+						<Folder Name="FootSteps" ID="{22D35232-3878-4040-876A-86C7962A5784}" ShortID="1044444606">
+							<ChildrenList>
+								<SwitchGroup Name="SurfaceType" ID="{0241EFBA-31DE-486A-BB7E-DA536386EB4F}">
+									<ChildrenList>
+										<Switch Name="Grass" ID="{D5D85233-FE87-4B6D-B770-EB20145A711C}"/>
+										<Switch Name="Hay" ID="{BBD2E888-A686-486D-A09A-18384F0CF4B8}"/>
+									</ChildrenList>
+								</SwitchGroup>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

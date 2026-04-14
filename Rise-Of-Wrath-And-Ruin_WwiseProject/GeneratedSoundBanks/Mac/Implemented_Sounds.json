@@ -1,0 +1,748 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "543157906",
+    "Type": "User",
+    "GUID": "{4D6F909A-9B6F-494E-A63E-5B4C0AAF8D4A}",
+    "Language": "SFX",
+    "Hash": "{7681DEC1-50B3-BBE6-7B8D-86D1FA970CD6}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Implemented_Sounds",
+    "ShortName": "Implemented_Sounds",
+    "Path": "Implemented_Sounds.bnk",
+    "Media": [
+     {
+      "Id": "107394852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves002.wav",
+      "CachePath": "DF/{DF8D927B-C59D-AA47-87FC-E3FFDB1D01B2}.wem"
+     },
+     {
+      "Id": "192150934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Firebolt_Midair_Firebolt_Midair_Output.wav",
+      "CachePath": "AF/{AF8AEF49-BFE9-E34F-D14F-E9FEA1717227}.wem"
+     },
+     {
+      "Id": "206481213",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves002.wav",
+      "CachePath": "12/{12F56F33-C54D-31F8-D6DD-01883AF2EE48}.wem"
+     },
+     {
+      "Id": "213077414",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Malet_On_Wood_Metal_on_wood.wav",
+      "CachePath": "E1/{E1EEE040-939A-4F45-058B-D38920472146}.wem"
+     },
+     {
+      "Id": "270724969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves003.wav",
+      "CachePath": "31/{31F0B92C-B6B6-2E2B-DE58-D3ED02462774}.wem"
+     },
+     {
+      "Id": "308133649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foot_Tap__.wav",
+      "CachePath": "B1/{B115FA92-C8E7-5F15-6AD3-77B0358091AE}.wem"
+     },
+     {
+      "Id": "328295729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Firebolt_Cast_Firebolt_Casting_Output.wav",
+      "CachePath": "98/{98EC8A56-7250-8F06-876E-EED131AA8CFC}.wem"
+     },
+     {
+      "Id": "392593433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ice_Smash_Malet_Impact_Ice_Mallet.wav",
+      "CachePath": "9A/{9A3A3838-2E12-E1FC-D2BF-D7F8A57DFFFC}.wem"
+     },
+     {
+      "Id": "412991690",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Finger_Snap_01_Finger_Snap.wav",
+      "CachePath": "D5/{D57406E0-6361-3353-699E-E44C9D39DDD6}.wem"
+     },
+     {
+      "Id": "432862632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Whip Bird.wav",
+      "CachePath": "5B/{5B58E395-3923-6955-8A84-20783D0C3DE4}.wem"
+     },
+     {
+      "Id": "451296781",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal_Slide_On_Ice_Ice_metal_Slide.wav",
+      "CachePath": "0E/{0E327306-6125-D6CB-B6EF-9DDD49F24A71}.wem"
+     },
+     {
+      "Id": "528418868",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves002.wav",
+      "CachePath": "96/{963182A8-4407-CF9E-35F4-E0758BA567B1}.wem"
+     },
+     {
+      "Id": "584564127",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Malet_On_Wood_Metal_on_wood.wav",
+      "CachePath": "E5/{E51C3152-FE6A-974C-3ECE-7BE9C5161326}.wem"
+     },
+     {
+      "Id": "585190813",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword_Draw_Sword Draw Sheath.wav",
+      "CachePath": "1D/{1DE66B9C-04FA-2B72-5A2C-BBB8B6261F5C}.wem"
+     },
+     {
+      "Id": "603186303",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves003.wav",
+      "CachePath": "38/{38CAD340-3C3D-1C12-C570-ABA39BD1B68C}.wem"
+     },
+     {
+      "Id": "607590977",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal_Slide_On_Ice_Ice_metal_Slide.wav",
+      "CachePath": "EE/{EEA9E9D3-BCD0-EEC3-5CFA-CC86B82BC03D}.wem"
+     },
+     {
+      "Id": "664436129",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ice_Smash_Metal_Impact_Ice_Smash_Metal.wav",
+      "CachePath": "0D/{0D625CC4-8025-A7A4-A0A1-5BE748BAA872}.wem"
+     },
+     {
+      "Id": "707616931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal_Taps_Metal_Taps.wav",
+      "CachePath": "FC/{FC52FB85-34EC-C24A-56B5-8525D9D6F54F}.wem"
+     },
+     {
+      "Id": "717066486",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_Plane_Wood Plane.wav",
+      "CachePath": "4F/{4F7105BE-7F12-0540-1A99-6E063862A733}.wem"
+     },
+     {
+      "Id": "746163082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mystery Bird 2.wav",
+      "CachePath": "DA/{DAC14BF0-B549-79AE-A6C3-9A5F5F1784BE}.wem"
+     },
+     {
+      "Id": "773690356",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Firebolt_Impact_V2_Firebolt_Impact_Output.V2.wav",
+      "CachePath": "94/{940BC4EA-6285-FBFE-C59A-F05A0954B97B}.wem"
+     },
+     {
+      "Id": "788946091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves003.wav",
+      "CachePath": "2C/{2C5DAB66-EB9E-ADC5-58F0-019427BE968A}.wem"
+     },
+     {
+      "Id": "833372557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves002.wav",
+      "CachePath": "2C/{2CFDB7D6-0D7C-7274-F096-1F1C71A20DC7}.wem"
+     },
+     {
+      "Id": "850747584",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves003.wav",
+      "CachePath": "9B/{9BF8E083-66BA-421B-52E8-973F333CDA57}.wem"
+     },
+     {
+      "Id": "852890011",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves002.wav",
+      "CachePath": "EA/{EAC8AB78-D40D-8B64-64CC-B3265C39C6A5}.wem"
+     },
+     {
+      "Id": "888910239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shaving_Wood_Shaving_wood.wav",
+      "CachePath": "90/{9010DF81-CC77-6CCA-43A2-4FFA8676C1F5}.wem"
+     },
+     {
+      "Id": "1031066534",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking_rocks_leaves002.wav",
+      "CachePath": "B9/{B9928F97-8776-77B5-0D3E-5D37572EFFE3}.wem"
+     },
+     {
+      "Id": "1068600451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rain_Take001.wav",
+      "CachePath": "D5/{D591986F-87E8-CC64-A099-A93DB1AD6D9B}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "403193505",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Player_Character\\PC_Spells\\Spellcasting_Methods\\Foot_Tap_Cast_SFX\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{EB996B0E-10BD-4F62-A19E-3EA893DF5F69}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "665745431",
+       "Name": "Synth One",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Player_Character\\PC_Spells\\Spells\\Shield\\Shield_Loop\\Synth One",
+       "GUID": "{841B5681-4925-42D7-8F68-95C5C3102B25}",
+       "Color": "19",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "748172160",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Player_Character\\PC_Spells\\Spells\\Shield\\Shield_Loop\\[Effect Slot [1]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{A8826A61-BA08-4C12-A6E2-47FDC6B0BFED}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3407841817",
+      "Name": "Firebolt_Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Character\\PC_Spell\\Spell_Events\\Spellcasting\\Firebolt\\Firebolt_Impact",
+      "GUID": "{D79732DC-0E13-4F96-8AA4-C71AF59314FA}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38226536",
+      "DurationMax": "0.38226536",
+      "MediaRefs": [
+       {
+        "Id": "773690356"
+       }
+      ]
+     },
+     {
+      "Id": "157611648",
+      "Name": "FS_Player",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Character\\Footsteps\\FS_Player",
+      "GUID": "{DD489504-1851-41EE-A9CB-F274D5CDAE22}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25993913",
+      "DurationMax": "0.65994036",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "4248645337",
+         "GUID": "{D5D85233-FE87-4B6D-B770-EB20145A711C}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "107394852"
+         },
+         {
+          "Id": "206481213"
+         },
+         {
+          "Id": "528418868"
+         },
+         {
+          "Id": "833372557"
+         },
+         {
+          "Id": "852890011"
+         },
+         {
+          "Id": "1031066534"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "982177701",
+         "GUID": "{BBD2E888-A686-486D-A09A-18384F0CF4B8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "270724969"
+         },
+         {
+          "Id": "603186303"
+         },
+         {
+          "Id": "788946091"
+         },
+         {
+          "Id": "850747584"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "4248645337",
+         "GUID": "{D5D85233-FE87-4B6D-B770-EB20145A711C}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "107394852"
+         },
+         {
+          "Id": "206481213"
+         },
+         {
+          "Id": "528418868"
+         },
+         {
+          "Id": "833372557"
+         },
+         {
+          "Id": "852890011"
+         },
+         {
+          "Id": "1031066534"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "982177701",
+         "GUID": "{BBD2E888-A686-486D-A09A-18384F0CF4B8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "270724969"
+         },
+         {
+          "Id": "603186303"
+         },
+         {
+          "Id": "788946091"
+         },
+         {
+          "Id": "850747584"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "4248645337",
+         "GUID": "{D5D85233-FE87-4B6D-B770-EB20145A711C}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "107394852"
+         },
+         {
+          "Id": "206481213"
+         },
+         {
+          "Id": "528418868"
+         },
+         {
+          "Id": "833372557"
+         },
+         {
+          "Id": "852890011"
+         },
+         {
+          "Id": "1031066534"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "982177701",
+         "GUID": "{BBD2E888-A686-486D-A09A-18384F0CF4B8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "270724969"
+         },
+         {
+          "Id": "603186303"
+         },
+         {
+          "Id": "788946091"
+         },
+         {
+          "Id": "850747584"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2838936948",
+      "Name": "Play_Rain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Rain",
+      "GUID": "{3EBDAB0D-5B15-4018-8936-7D7819E3DAD2}",
+      "MaxAttenuation": "50",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1068600451"
+       }
+      ]
+     },
+     {
+      "Id": "2516359593",
+      "Name": "Play_Shield_Break",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shield_Break",
+      "GUID": "{0D74ADF4-BBB9-42CD-87CE-51FAEF4712EF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.61595607",
+      "DurationMax": "0.61595607",
+      "MediaRefs": [
+       {
+        "Id": "664436129"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1736150122",
+      "Name": "Play_Shield_Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shield_Impact",
+      "GUID": "{0A9840FC-80D2-4091-B654-BEA1985C007F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2533789",
+      "DurationMax": "0.2533789",
+      "MediaRefs": [
+       {
+        "Id": "707616931"
+       }
+      ]
+     },
+     {
+      "Id": "3932449222",
+      "Name": "Play_Shield_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shield_Loop",
+      "GUID": "{F999122B-C4F1-4F6D-AA52-265177897CDC}",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "665745431"
+        },
+        {
+         "Id": "748172160"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "953323285",
+      "Name": "Play_Shield_Summon",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shield_Summon",
+      "GUID": "{CD7254A6-BD70-4A16-A5F1-8C0285363011}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2221838",
+      "DurationMax": "0.2221838",
+      "MediaRefs": [
+       {
+        "Id": "451296781"
+       }
+      ]
+     },
+     {
+      "Id": "2618147347",
+      "Name": "Play_Weapon_Draw",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Weapon_Draw",
+      "GUID": "{CC775717-DA64-4A38-8D15-D2A26603CCBD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.40002754",
+      "DurationMax": "0.40002754",
+      "MediaRefs": [
+       {
+        "Id": "585190813"
+       }
+      ]
+     },
+     {
+      "Id": "3739832523",
+      "Name": "Play_Weapon_Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Weapon_Impact",
+      "GUID": "{B253C6D3-B527-4228-89D1-197553ABA018}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4034778",
+      "DurationMax": "0.4034778",
+      "MediaRefs": [
+       {
+        "Id": "392593433"
+       }
+      ]
+     },
+     {
+      "Id": "2128022953",
+      "Name": "Staff_Firebolt_Cast",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Character\\PC_Spell\\Spell_Events\\Spellcasting\\Firebolt\\Staff_Firebolt_Cast",
+      "GUID": "{DF237C11-1161-4A09-A62C-15DF20728998}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.98167384",
+      "DurationMax": "0.98167384",
+      "MediaRefs": [
+       {
+        "Id": "328295729"
+       }
+      ]
+     },
+     {
+      "Id": "1975303464",
+      "Name": "Start_Firebolt_Midair",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Character\\PC_Spell\\Spell_Events\\Spellcasting\\Firebolt\\Start_Firebolt_Midair",
+      "GUID": "{38142CCD-F1EB-4E5D-A1EA-C3202D2FFDBA}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "8.693024",
+      "DurationMax": "8.693024",
+      "MediaRefs": [
+       {
+        "Id": "192150934"
+       }
+      ]
+     },
+     {
+      "Id": "692113986",
+      "Name": "Stop_Firebolt_Midair",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Character\\PC_Spell\\Spell_Events\\Spellcasting\\Firebolt\\Stop_Firebolt_Midair",
+      "GUID": "{EBE1E8EC-1DF8-4890-BA9C-F7F9B606E5B5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "192150934"
+       }
+      ]
+     },
+     {
+      "Id": "3206237490",
+      "Name": "Stop_Rain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Rain",
+      "GUID": "{88C34DE6-F36A-4AB3-A926-67F79F14E61C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "1068600451"
+       }
+      ]
+     },
+     {
+      "Id": "4119716168",
+      "Name": "Stop_Shield_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Shield_Loop",
+      "GUID": "{FC49DE97-0AF5-4BF0-AF10-C21A4451313C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "665745431"
+        },
+        {
+         "Id": "748172160"
+        }
+       ]
+      }
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient",
+      "GUID": "{FBCB2B89-8520-4077-AFAA-38EA51B8381D}",
+      "Color": "13"
+     },
+     {
+      "Id": "352130103",
+      "Name": "Birds",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Birds",
+      "GUID": "{BF66C663-C19C-4422-8754-CBD5DB3F71B5}",
+      "Color": "13"
+     },
+     {
+      "Id": "966360136",
+      "Name": "PC_Spells",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Player\\PC_Spells",
+      "GUID": "{973FEBEE-4CB3-4152-A168-F153585CB51D}",
+      "Color": "13"
+     },
+     {
+      "Id": "1069431850",
+      "Name": "Player",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Player",
+      "GUID": "{FD1766BC-DE9A-402A-AEC8-655256B6A1B5}",
+      "Color": "13"
+     },
+     {
+      "Id": "1229948536",
+      "Name": "Environment",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Environment",
+      "GUID": "{9FE91AFD-18F1-491A-B8EB-4DD569D9AF5B}",
+      "Color": "13"
+     },
+     {
+      "Id": "1781417190",
+      "Name": "Enemy_Attack",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Enemies\\Enemy_Attack",
+      "GUID": "{F226A996-4462-4F0A-9A91-0DFE759902EB}",
+      "Color": "13"
+     },
+     {
+      "Id": "2042825534",
+      "Name": "Other_Amient",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Other_Amient",
+      "GUID": "{E914185A-947D-41C8-BC6B-018E1CEB71CD}",
+      "Color": "13"
+     },
+     {
+      "Id": "2242381963",
+      "Name": "Enemies",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Enemies",
+      "GUID": "{DE1B1604-25BA-4452-9143-1EFB7E545386}",
+      "Color": "13"
+     },
+     {
+      "Id": "3144539142",
+      "Name": "PC_Footsteps",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Player\\PC_Footsteps",
+      "GUID": "{0E4A253D-CE73-4183-BC1E-A6856D42C1B8}",
+      "Color": "13"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "Color": "13"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "63790334",
+      "Name": "SurfaceType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PC_Switches\\FootSteps\\SurfaceType",
+      "GUID": "{0241EFBA-31DE-486A-BB7E-DA536386EB4F}",
+      "Switches": [
+       {
+        "Id": "982177701",
+        "Name": "Hay",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC_Switches\\FootSteps\\SurfaceType\\Hay",
+        "GUID": "{BBD2E888-A686-486D-A09A-18384F0CF4B8}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC_Switches\\FootSteps\\SurfaceType\\Grass",
+        "GUID": "{D5D85233-FE87-4B6D-B770-EB20145A711C}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4BE39A27-3069-5CE4-460F-EA85757EBCE5}"
+ }
+}
