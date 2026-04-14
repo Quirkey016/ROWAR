@@ -1,0 +1,6 @@
+*.bnk filter=lfs diff=lfs merge=lfs -text
+Rise-Of-Wrath-And-Ruin_WwiseProject/GeneratedSoundBanks/Mac/Implemented_Sounds.bnk filter=lfs diff=lfs merge=lfs -text
+/Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkUnitySoundEngine filter=lfs diff=lfs merge=lfs -text
+/Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkUnitySoundEngine filter=lfs diff=lfs merge=lfs -text
+/Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkUnitySoundEngine filter=lfs diff=lfs merge=lfs -text
+/Rise-Of-Wrath-And-Ruin_WwiseProject/Originals/SFX/Gramophone[[:space:]]music.wav filter=lfs diff=lfs merge=lfs -text
