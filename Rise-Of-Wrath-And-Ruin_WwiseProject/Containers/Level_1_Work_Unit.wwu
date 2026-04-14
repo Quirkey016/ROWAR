@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4FCBAB63-A90C-4DAC-A0DF-AB84B4C06F38}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Level_1_Work_Unit" ID="{4FCBAB63-A90C-4DAC-A0DF-AB84B4C06F38}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Lvl_1_Basic_Enemies" ID="{10662164-D55E-4781-9074-BF602CC1FB2F}" ShortID="257567948">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Weapons" ID="{F33D5BB0-F03A-4341-8D7E-5FECE8D7EAE6}" ShortID="47769009">
+							<ChildrenList>
+								<Folder Name="Weapon_Draw" ID="{8CFDF80A-E9A3-430B-937B-8B6B95B7CF65}" ShortID="758320872">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Commoner_Weapon_Draw" ID="{C018A1F2-45B8-4E6E-B6CE-AF9919994887}" ShortID="883912492">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Farmer_Weapon_Draw" ID="{C980E500-B180-4160-B1A4-6384BE661360}" ShortID="528678254">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Weapon_Atack" ID="{D027BE55-4624-4EC5-ACCF-DB4B7B9A95B0}" ShortID="442632742">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Commoner_Weapon_Attack" ID="{41870C45-8BEF-4C08-A241-9E24CBF80934}" ShortID="209169014">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Farmer_Weapon_Attack" ID="{AEC42E9D-B836-48D8-BFB1-A8631CE0B8F8}" ShortID="818607265">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Weapon_Sheath" ID="{174B6BEC-E60B-40B9-9174-D25E7E97C212}" ShortID="41584762">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Commoner_Weapon_Sheath" ID="{B0DF78E4-8ABE-4CBE-8E68-CD7C2AC9DB47}" ShortID="1036916645">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Farmer_Weapon_Sheath" ID="{34BB8947-1C4B-4FAF-B19D-335E54E18590}" ShortID="121204755">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Armour" ID="{AEE5DBB5-35EA-43A8-8693-71E564C1F58B}" ShortID="632185204">
+							<ChildrenList>
+								<Folder Name="Taking_Damage" ID="{79B3493F-8140-405B-91DB-C63F4B8CECC6}" ShortID="652576784"/>
+								<Folder Name="Weapon_Swings" ID="{FB3AEAA1-38C6-4B69-A66C-A8BEA7D86707}" ShortID="375651458"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Movement" ID="{DBFB1F8E-F8A2-42B7-A06C-0472939DC819}" ShortID="785066475">
+							<ChildrenList>
+								<Folder Name="Foot_Steps" ID="{B6A054BD-6F30-4B55-BE32-E843AC3950FE}" ShortID="979439066">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Chain_Mail_Steps" ID="{703FA563-9CCB-490A-8512-CB1B6A744464}" ShortID="318591872">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chainmail_Steps_01" ID="{4B0E182D-80F0-46D7-B03C-A1FB7FE4EE90}" ShortID="214250179">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Armour Shrug_Armour Shrug Total" ID="{789B65E6-8C3C-496B-8BB9-030CE2789368}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.274914710466252"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.27460563482241"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Armour Shrug_Armour Shrug Total.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="611177629"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Armour Shrug_Armour Shrug Total" ID="{789B65E6-8C3C-496B-8BB9-030CE2789368}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chainmail_Steps_02" ID="{2D06E8E9-CD62-43E1-94DB-32D2C83598D1}" ShortID="219818686">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Armour Shrug_Armour Shrug Total" ID="{04F099D7-B31F-4A09-A6BA-B96FD53E5E02}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.52390674324923"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.37364418916924"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Armour Shrug_Armour Shrug Total.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="526243611"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Armour Shrug_Armour Shrug Total" ID="{04F099D7-B31F-4A09-A6BA-B96FD53E5E02}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chainmail_Steps_03" ID="{7D276E83-05D0-4615-A3DA-45E0930828C8}" ShortID="767546313">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>200</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Armour Shrug_Armour Shrug Total" ID="{7F69B650-4CE9-4FE0-8442-49627BE29CFB}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.0234415276106"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.0731169447788"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Armour Shrug_Armour Shrug Total.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="513934707"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Armour Shrug_Armour Shrug Total" ID="{7F69B650-4CE9-4FE0-8442-49627BE29CFB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chainmail_Steps_04" ID="{4D07B66C-39EA-4E28-A639-73EF94B6C13F}" ShortID="19296563">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Armour Shrug_Armour Shrug Total" ID="{D305BD75-51F2-4C8B-B2E4-5EEAD1E90544}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.52266616821289"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.67231057100519"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Armour Shrug_Armour Shrug Total.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616106240"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Armour Shrug_Armour Shrug Total" ID="{D305BD75-51F2-4C8B-B2E4-5EEAD1E90544}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chainmail_Steps_05" ID="{F5BF1A87-EFE2-4ADD-9474-FC4504587CE5}" ShortID="679905838">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>50</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Armour Shrug_Armour Shrug Total" ID="{11F8368A-36EE-46B3-B02A-B1D5A50DC269}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="9.89692957678507"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.621705790675"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Armour Shrug_Armour Shrug Total.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="998147790"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Armour Shrug_Armour Shrug Total" ID="{11F8368A-36EE-46B3-B02A-B1D5A50DC269}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chainmail_Steps_06" ID="{FCE7E144-19B4-4C4A-8DF4-54B3620E9C03}" ShortID="490068738">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Armour Shrug_Armour Shrug Total" ID="{36CDB47C-084F-49BF-B0E2-DB4928FF13C7}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="12.5461076958235"/>
+																<Property Name="TrimEnd" Type="Real64" Value="13.3208684025254"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Armour Shrug_Armour Shrug Total.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="574730923"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Armour Shrug_Armour Shrug Total" ID="{36CDB47C-084F-49BF-B0E2-DB4928FF13C7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{DBA4E530-A94F-4BFD-9DCE-DD25C34C3433}" ShortID="583814030">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+																<ObjectRef Name="All_Buttons_IN" ID="{E5FFEBA7-4F6F-421E-ABB7-286C011BD0C8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Leather_Steps" ID="{0DE76F12-01E6-4D9B-A5C7-DC54745526D4}" ShortID="51931205">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Jumps" ID="{040006C9-42E6-4B86-860E-4C89CDA6E1C3}" ShortID="571481393"/>
+								<Folder Name="Dodge" ID="{15E90AEB-F46C-4173-961B-1D48D6CAE1BE}" ShortID="693274263"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lvl_1_Boss_Enemy" ID="{D5C34B57-59C0-4AC8-9136-1E8A61D980C6}" ShortID="75628896">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Armour" ID="{4278A0B2-6B63-46C2-830B-7464A631586E}" ShortID="179086695">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Taking_Damage" ID="{69D2FC6D-1A04-4948-977C-A1B50167EAB6}" ShortID="297260967">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Weapon_Swings" ID="{06A6AD5E-4BE5-4619-BD87-681BE2184DB6}" ShortID="681659225">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Movement" ID="{055DB1C5-6C95-4DD9-A1B6-A8209F00E07A}" ShortID="198335560">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Boss_Dodge" ID="{5AC2B96E-723C-4BFE-AE91-6C43F0636CB0}" ShortID="538928348">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<Folder Name="Footsteps" ID="{162DD365-858B-4E91-8CAB-F69E72C71806}" ShortID="327736398">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Surface_01" ID="{D0A37635-4E5E-4390-BD98-E48024BFC60A}" ShortID="37155655">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Surface_02" ID="{AD9A5A71-8479-4D28-880E-C234F5C9B19D}" ShortID="432773271">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Surface_03" ID="{A2C6081B-7B2D-4AF0-8DA0-CA5BEE0A8ED4}" ShortID="157927623">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Surface_04" ID="{D234892F-B7AA-4F12-AE56-CB1FC9C97E83}" ShortID="635105096">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Surface_05" ID="{C54E3C3C-0530-4358-88BA-990AF57088BF}" ShortID="376254292">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Surface_06" ID="{26395C2D-2FAE-4821-B2A5-2D5BB9910979}" ShortID="942853943">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Surface_07" ID="{5951991C-1F67-4562-89A7-C918C669EBA2}" ShortID="294201039">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Weapons" ID="{229AEFB9-0C77-4258-A687-6264C39DE725}" ShortID="1045171491">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Weapon_Attack" ID="{7D81BEBA-9754-4A0D-833D-A41544CF1B8B}" ShortID="788703015">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<Sound Name="Weapon_Draw" ID="{992786A4-5A28-4346-8A69-4E8AECD5C14A}" ShortID="494191252">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal_Slide_On_Ice_Ice_metal_Slide" ID="{048528A9-9078-4CAF-A405-DE3988FAB76F}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.36039294537029"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal_Slide_On_Ice_Ice_metal_Slide.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="607590977"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal_Slide_On_Ice_Ice_metal_Slide" ID="{048528A9-9078-4CAF-A405-DE3988FAB76F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Sheath" ID="{6A1DE7F3-C17D-4AA9-89F5-05A315039CE1}" ShortID="758964434">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sword_Draw_Sword Draw Sheath" ID="{797A65DC-C800-4DDD-B583-53510C6BBED8}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="10.3781010878737"/>
+												<Property Name="TrimEnd" Type="Real64" Value="12.177451672606"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Sword_Draw_Sword Draw Sheath.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="585190813"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sword_Draw_Sword Draw Sheath" ID="{797A65DC-C800-4DDD-B583-53510C6BBED8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lvl_1_BG_Environment" ID="{423881ED-0840-4137-8C5A-608C8B4EC403}" ShortID="689903037">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Animals" ID="{14168C10-36F7-4EB4-8D7B-667D94F828AB}" ShortID="239591543">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Bird_01" ID="{51E1F202-5383-4405-94B4-9661B162A57E}" ShortID="569728621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Bird_02" ID="{EAC244F5-43D7-4E6B-B750-1C0C74624B58}" ShortID="788266063">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Bird_03" ID="{50376CE1-EBF4-43B5-978C-E55502C1EC05}" ShortID="386524795">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Cow" ID="{5D203F3F-F4A7-435E-BFBA-E49DDBAD4818}" ShortID="515402830">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Sheep" ID="{707ED509-24DC-494A-9ED2-312162A45879}" ShortID="1006490991">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Structures" ID="{6ED470A5-5679-44E6-8063-647689428C50}" ShortID="438401264">
+							<Comment>Need Watermill SFX </Comment>
+						</Folder>
+						<Folder Name="Atmos" ID="{1AAE61FE-0B61-461A-AC27-19A40774DA01}" ShortID="849914569">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Wind" ID="{DF53A582-A579-4B5D-9648-21F75D8C87FC}" ShortID="465018551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Farm Sounds" ID="{DB1B256F-EE37-4CDA-9730-57D862C675F7}" ShortID="133743053">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lvl_1_Music" ID="{858547C1-C026-4B00-9FB8-76A2B531578E}" ShortID="861814492">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

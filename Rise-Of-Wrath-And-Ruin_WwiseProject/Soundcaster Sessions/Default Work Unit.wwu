@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A82B755E-2F9C-481A-BF4E-3DCA1C900F95}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A82B755E-2F9C-481A-BF4E-3DCA1C900F95}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Footsteps" ID="{5C9EEB1F-F181-4665-ACA3-F74CA19D6378}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Footsteps_Grass_Dirt" ID="{6F797C21-2078-48E0-BE9C-E236880D0D84}" WorkUnitID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

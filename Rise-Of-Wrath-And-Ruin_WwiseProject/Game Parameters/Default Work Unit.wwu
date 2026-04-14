@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F27841C2-4F0C-4DD1-8881-1C57FB368520}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F27841C2-4F0C-4DD1-8881-1C57FB368520}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Bus_Volume_Footsteps" ID="{C104E2FC-DDC2-43F2-9280-969FA3A8971F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}" SchemaVersion="133">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{9ECFE7DA-C27F-48EC-950E-75A4320FF98A}" WorkUnitID="{DB371860-BF92-4BCD-996C-16F1E6B09B65}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Enemies" ID="{DE1B1604-25BA-4452-9143-1EFB7E545386}"/>
+						<Bus Name="Player" ID="{FD1766BC-DE9A-402A-AEC8-655256B6A1B5}">
+							<ChildrenList>
+								<Bus Name="Footsteps" ID="{90D500D5-63DD-4CF4-BB66-6D5D676AF39F}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{7B12FB0C-050E-43DD-89B5-166CB5BA8C04}" ShortID="979655783">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Gain (Custom)" ID="{C29CA0AE-3785-4558-8663-42A72AB037ED}" ShortID="932005505" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+																<ObjectLists>
+																	<ObjectList Name="RTPC">
+																		<RTPC Name="" ID="{FC66535A-1BDC-4329-8D9D-6C8435B9A52D}" ShortID="834185236">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="FullBandGain"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{DDF1B186-804E-42DB-A2A2-C74ED1F3DF83}" ShortID="369122955"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{720A37CA-7810-4CDE-B47D-783185D3B7E3}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="3"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>-96.3000030517578</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>0</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</ObjectList>
+																</ObjectLists>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{E6921C49-E59A-47D1-A751-17BE9A00486B}" ShortID="844172324">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Bus_Volume_Footsteps" ID="{C104E2FC-DDC2-43F2-9280-969FA3A8971F}" WorkUnitID="{F27841C2-4F0C-4DD1-8881-1C57FB368520}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{52379995-64E8-44C7-8E35-A74E90514189}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-96</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="Spells" ID="{02FE8309-0D5B-4689-A634-80CC19A1B371}">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

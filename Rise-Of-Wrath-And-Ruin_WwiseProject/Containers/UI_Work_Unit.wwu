@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A5D2ED3-6823-40E7-9091-3E6C52753398}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="UI_Work_Unit" ID="{6A5D2ED3-6823-40E7-9091-3E6C52753398}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Main_Menu" ID="{2849AA72-57F0-43CF-8D91-0F9B5D6B3A3F}" ShortID="658233953">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="Pause_Menu" ID="{B4980B60-6B2B-4D0E-8837-752DE52B3CC5}" ShortID="88727805">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="HUD_Menu" ID="{76F7EB34-3F3F-4803-85B0-E031D8262B75}" ShortID="979215837">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="General_Sounds" ID="{5CD723C6-49B4-473B-A9FB-38A46B673072}" ShortID="127608465">
+					<ChildrenList>
+						<Sound Name="Mouse_Click" ID="{3F9932CA-641B-4595-A872-3F7C86CC304C}" ShortID="909312892">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

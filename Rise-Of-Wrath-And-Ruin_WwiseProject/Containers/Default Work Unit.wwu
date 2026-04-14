@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{9EA7D6AA-38E6-44A9-913D-218BB469BE3C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player_Character" ID="{4D067305-E72E-42F6-9E22-71139C4410CE}" ShortID="108075972">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="PC_Spells" ID="{3AC070A8-96EE-4D2E-B079-429814ECC0CB}" ShortID="192083430">
+							<ChildrenList>
+								<Folder Name="Spells" ID="{FA0AD513-0519-400A-9FE1-349A02B2B967}" ShortID="1048703469">
+									<ChildrenList>
+										<Folder Name="Firebolt" ID="{DBB3D1E3-473B-4208-A501-BFB6C272E261}" ShortID="21713032">
+											<ChildrenList>
+												<Sound Name="Firebolt_Cast" ID="{3141093C-6A4D-4723-AE35-FBD7149F833A}" ShortID="456558149">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Spell_Attenuation" ID="{C143AF80-A8F3-4B50-A149-5042E96D2474}" WorkUnitID="{76EA2C56-CDAC-41FC-A316-C91CFEAA5F9B}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Spells" ID="{02FE8309-0D5B-4689-A634-80CC19A1B371}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Firebolt_Cast_Firebolt_Casting_Output" ID="{DE8B46B1-90DD-4CA6-8E08-6882DF6143D7}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.981673811203224"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.358055643770995"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.33972945497422"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Firebolt_Cast_Firebolt_Casting_Output.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="328295729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{66CCCBE5-B57B-4CD9-AEE1-FAA14120C59A}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Firebolt_Cast_Firebolt_Casting_Output" ID="{DE8B46B1-90DD-4CA6-8E08-6882DF6143D7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Firebolt_Midair" ID="{C07D027C-96FC-4153-AA29-C9F87459C85F}" ShortID="554012978">
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Spell_Attenuation" ID="{C143AF80-A8F3-4B50-A149-5042E96D2474}" WorkUnitID="{76EA2C56-CDAC-41FC-A316-C91CFEAA5F9B}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Spells" ID="{02FE8309-0D5B-4689-A634-80CC19A1B371}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Firebolt_Midair_Firebolt_Midair_Output" ID="{3CB421D4-3EA0-49A8-B5DB-AD3084C14A0C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.69302337646484"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Firebolt_Midair_Firebolt_Midair_Output.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="192150934"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Firebolt_Midair_Firebolt_Midair_Output" ID="{3CB421D4-3EA0-49A8-B5DB-AD3084C14A0C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Firebolt_Impact" ID="{A128AC24-AE62-4A85-A29D-B6308CD96A27}" ShortID="91783935">
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Spell_Attenuation" ID="{C143AF80-A8F3-4B50-A149-5042E96D2474}" WorkUnitID="{76EA2C56-CDAC-41FC-A316-C91CFEAA5F9B}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Spells" ID="{02FE8309-0D5B-4689-A634-80CC19A1B371}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Firebolt_Impact_V1_Firebolt_Impact_Output" ID="{309E624D-E5D4-41A3-BBAC-27F417FFC63F}">
+															<Language>SFX</Language>
+															<AudioFile>Firebolt_Impact_V1_Firebolt_Impact_Output.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="97524384"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Firebolt_Impact_V2_Firebolt_Impact_Output_V2" ID="{C768F1FD-D9B8-4DFA-8C23-2F2FD987A251}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.826479395635845"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.20874476114909"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>-14.5</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Firebolt_Impact_V2_Firebolt_Impact_Output.V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="773690356"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Firebolt_Impact_V2_Firebolt_Impact_Output_V2" ID="{C768F1FD-D9B8-4DFA-8C23-2F2FD987A251}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Heal" ID="{B22C0169-106A-45C9-81CA-4E7C82D0453B}" ShortID="1020376010"/>
+										<Folder Name="Shield" ID="{1DB2E3DA-A8B7-4DCB-B025-6633D97AC351}" ShortID="250167068">
+											<Comment>Need Shield Break, Cast, Release &amp; Sustain</Comment>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Spellcasting_Methods" ID="{5A8B2A69-BB4B-4310-B4CC-BAA0CCA2CE08}" ShortID="259186541">
+									<Comment>Need Grimoire Casting SFX</Comment>
+									<ChildrenList>
+										<Sound Name="Staff_Cast_SFX" ID="{D88000FB-990B-4582-9F9D-809680BC188C}" ShortID="457070982">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Malet_On_Wood_Metal_on_wood" ID="{DD926A57-60F5-4BB6-B155-7245292C4951}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.319562813043822"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.571191034260835"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Malet_On_Wood_Metal_on_wood.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="584564127"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{E991D0A6-CE4C-4803-97BC-595320E118DD}" ShortID="935406726">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+																<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+													<EffectSlot Name="" ID="{BA00CBD9-99C0-445E-9895-394633980D2A}" ShortID="145314099">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="Malet_On_Wood_Metal_on_wood" ID="{DD926A57-60F5-4BB6-B155-7245292C4951}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foot_Tap_Cast_SFX" ID="{181D928D-1889-40C9-AC0E-89836DD95204}" ShortID="880119769">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Foot_Tap__" ID="{5309CE4B-E1FF-4D3C-BEAC-5F354C93DFE1}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.22"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.552857142857143"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Foot_Tap__.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="308133649"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{A8774A4C-5AF3-4A97-A551-A92DB640FDED}" ShortID="571091325">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Time Stretch (Custom)" ID="{EB996B0E-10BD-4F62-A19E-3EA893DF5F69}" ShortID="403193505" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																		<PropertyList>
+																			<Property Name="PitchShift" Type="Real32" Value="100"/>
+																			<Property Name="TimeStretch" Type="Real32" Value="96"/>
+																			<Property Name="WindowSize" Type="int32" Value="6144"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="Foot_Tap__" ID="{5309CE4B-E1FF-4D3C-BEAC-5F354C93DFE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Finger_Snap_SFX" ID="{8A8E4178-BE44-41B3-BEBC-A8E3465E4AD2}" ShortID="851432575">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Finger_Snap_01_Finger_Snap" ID="{9A72962A-E275-4722-A996-6A0A83FDDC77}">
+													<Language>SFX</Language>
+													<AudioFile>Finger_Snap_01_Finger_Snap.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="412991690"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Finger_Snap_01_Finger_Snap" ID="{9A72962A-E275-4722-A996-6A0A83FDDC77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PC_Movement" ID="{2D433011-947D-4400-86D3-AEF0DEC33B2C}" ShortID="355353916">
+							<ChildrenList>
+								<Folder Name="Footsteps" ID="{28F29DA7-C03D-4E9F-A347-F1FF6BE3B23E}" ShortID="544340277"/>
+								<Folder Name="Dodge" ID="{70E9AF2F-F1D4-4983-AB40-748ED2CA9436}" ShortID="257801764"/>
+								<SwitchContainer Name="Footsteps_Switch_Container" ID="{77C23CBB-683A-4ACC-B571-B1461435BC1B}" ShortID="487050855">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Grass" ID="{D5D85233-FE87-4B6D-B770-EB20145A711C}" WorkUnitID="{06E69DF4-4D18-44CE-B9E6-F436EF6D9ED8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Footsteps" ID="{90D500D5-63DD-4CF4-BB66-6D5D676AF39F}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SurfaceType" ID="{0241EFBA-31DE-486A-BB7E-DA536386EB4F}" WorkUnitID="{06E69DF4-4D18-44CE-B9E6-F436EF6D9ED8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Footsteps_Hay" ID="{FB75D01A-6F29-4BF1-B595-8350D637E3AD}" ShortID="906731500">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Walking_rocks_leaves003" ID="{F9D324B5-3CB0-4F9B-BAC0-CBA1D998A955}" ShortID="239364590">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{E5338EE3-664F-4867-A199-2D6FE2F2746F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.723011737387514"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.42566429518192"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="270724969"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves003" ID="{E5338EE3-664F-4867-A199-2D6FE2F2746F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Walking_rocks_leaves003_01" ID="{B3C5FE08-DF04-400A-9C39-E1476F61991B}" ShortID="488255731">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{992CEE5F-27FF-40C6-ACD2-E9CAD349067A}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.74386011755476"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.27991271259983"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="788946091"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves003" ID="{992CEE5F-27FF-40C6-ACD2-E9CAD349067A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Walking_rocks_leaves003_02" ID="{4D812C95-5451-4E16-9048-FD90E431AC5B}" ShortID="491056056">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{2E3C7B77-9934-418F-91B0-56AC2C15F310}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="23.0013888096572"/>
+																<Property Name="TrimEnd" Type="Real64" Value="23.4825359569923"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="850747584"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves003" ID="{2E3C7B77-9934-418F-91B0-56AC2C15F310}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Walking_rocks_leaves003_03" ID="{61968372-4EF0-420E-89BF-4307EC2EF55E}" ShortID="81482766">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{1EDF24AD-9944-4634-9A48-CA3F524ED924}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="41.1249595633717"/>
+																<Property Name="TrimEnd" Type="Real64" Value="41.7904746497427"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="603186303"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves003" ID="{1EDF24AD-9944-4634-9A48-CA3F524ED924}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Footsteps_Grass_Dirt" ID="{6F797C21-2078-48E0-BE9C-E236880D0D84}" ShortID="678826434">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Footsteps" ID="{90D500D5-63DD-4CF4-BB66-6D5D676AF39F}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grass_Step_01" ID="{7A0A489B-736E-4EF8-B1F7-5ADCA5A4E1BB}" ShortID="381209511">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves001" ID="{8705CEE9-46DA-4F9C-BE4E-F60F59D8CBE6}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37482453"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves002" ID="{33CBF023-ED71-47EE-9854-8E68B1C6AA17}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.296478496388702"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.604142141284404"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="833372557"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{033522A0-9021-43DF-8AB3-18CE72250481}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616046095"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves002" ID="{33CBF023-ED71-47EE-9854-8E68B1C6AA17}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grass_Step_02" ID="{FCECEE25-48B2-45A9-A9EE-201B54DF0E07}" ShortID="211012696">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves001" ID="{3A3EEF70-BDAE-4A7C-9D17-C0C3DF4FE630}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37482453"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves002" ID="{463685EC-1901-4F18-95DC-4829640AB4A5}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.45012122901908"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.84608171218939"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="852890011"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{403657DD-D364-4230-B1EC-7D0358D2EF95}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616046095"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves002" ID="{463685EC-1901-4F18-95DC-4829640AB4A5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grass_Step_03" ID="{DB65970C-5E3F-458A-AD6B-5894E1FDD09A}" ShortID="569251003">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves001" ID="{682953A5-20D0-4A78-AED4-B6BE2DCBE9A4}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37482453"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves002" ID="{8595E435-BF22-4B49-B9FF-CAF1A7173F1D}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="21.4578397012455"/>
+																<Property Name="TrimEnd" Type="Real64" Value="21.7618914671905"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="528418868"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{854CCD8E-ABE0-45D6-8823-3177565D2583}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616046095"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves002" ID="{8595E435-BF22-4B49-B9FF-CAF1A7173F1D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grass_Step_04" ID="{FD43D956-0CF4-4776-B9AF-9A2D84DB89F5}" ShortID="246729382">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves001" ID="{B6981CF0-D229-4A70-81C6-757111114790}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37482453"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves002" ID="{388BB60E-9669-47F5-A903-683857F3FAF3}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="31.2532404892325"/>
+																<Property Name="TrimEnd" Type="Real64" Value="31.4856806824675"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1031066534"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{7E2EDAE0-218C-4AAD-85B7-A72D6C1CDAE8}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616046095"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves002" ID="{388BB60E-9669-47F5-A903-683857F3FAF3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grass_Step_05" ID="{DB69C58E-FFB8-4A5A-80CB-0E9A1FEDD144}" ShortID="625502409">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves001" ID="{F857C22B-ACFB-4D6C-8790-30214F9BE401}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37482453"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves002" ID="{1105FC06-FE90-4798-918B-993058CF292D}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="35.5195245055206"/>
+																<Property Name="TrimEnd" Type="Real64" Value="36.020767336159"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="107394852"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{41466567-9071-41FF-AF9C-255C8EBB1DB5}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616046095"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves002" ID="{1105FC06-FE90-4798-918B-993058CF292D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grass_Step_06" ID="{0218F89F-00AE-4548-994B-32B5AF6D9936}" ShortID="804945449">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3A3BEEE-ABE5-4B0C-855B-C283091CCE15}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADBB7EF6-BD68-4F55-B9F7-B6585C272BCA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Walking_rocks_leaves001" ID="{E3F9CE60-0299-4431-813C-6B08B49F5AC4}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37482453"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves002" ID="{CE61FE74-C55F-4438-A6FF-E4180EE2ECAC}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="46.0669655957736"/>
+																<Property Name="TrimEnd" Type="Real64" Value="46.367763140076"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="206481213"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Walking_rocks_leaves003" ID="{B91E20C4-BE33-4303-A7F0-BEBD3B2F0B3E}">
+															<Language>SFX</Language>
+															<AudioFile>Walking_rocks_leaves003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616046095"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Walking_rocks_leaves002" ID="{CE61FE74-C55F-4438-A6FF-E4180EE2ECAC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{99F66ECC-78A7-4C7C-857D-CE47FBB91E23}" ShortID="655544276">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+														<ObjectRef Name="New_Gain" ID="{B0E6A577-C759-442B-8810-82286E19A841}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Footsteps_Hay" ID="{FB75D01A-6F29-4BF1-B595-8350D637E3AD}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Footsteps_Grass_Dirt" ID="{6F797C21-2078-48E0-BE9C-E236880D0D84}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Grass" ID="{D5D85233-FE87-4B6D-B770-EB20145A711C}"/>
+												<ItemList>
+													<ItemRef Name="Footsteps_Grass_Dirt" ID="{6F797C21-2078-48E0-BE9C-E236880D0D84}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Hay" ID="{BBD2E888-A686-486D-A09A-18384F0CF4B8}"/>
+												<ItemList>
+													<ItemRef Name="Footsteps_Hay" ID="{FB75D01A-6F29-4BF1-B595-8350D637E3AD}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
