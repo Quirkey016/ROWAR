@@ -20,18 +20,20 @@ namespace Enemies
         public GameObject projectile;
         private bool _canFire = true;
         public float attackSpeed = 2.5f;
+        [SerializeField] private Animator animator;
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.CompareTag("Player"))
             {
                 Debug.Log("Player here");
+                animator.SetBool("Punch", true);
                 PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
 
                 if (playerHealth != null)
                 {
                     Debug.Log("damage");
-                    
+
                     playerHealth.currentHealth -= damage;
                 }
             }
@@ -42,6 +44,7 @@ namespace Enemies
         private void Start()
         {
             playerRef = GameObject.FindGameObjectWithTag("Player");
+            animator = GetComponent<Animator>();
         }
 
         private void Update()
