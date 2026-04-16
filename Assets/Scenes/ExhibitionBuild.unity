@@ -20154,6 +20154,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1410139423228853395, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.4292684
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410139423228853395, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.4292684
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410139423228853395, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.4292684
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410139423228853395, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
       propertyPath: m_LocalPosition.x
       value: 342.28357
       objectReference: {fileID: 0}
@@ -20204,6 +20216,14 @@ PrefabInstance:
     - target: {fileID: 4485198169657530360, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
       propertyPath: m_Name
       value: BossAttack1_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705728001446266609, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4538842
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705728001446266609, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.028057873
       objectReference: {fileID: 0}
     - target: {fileID: 6317296380975262161, guid: 34d1135077a811748b3cb2ed0e2d3f78, type: 3}
       propertyPath: m_Mass
