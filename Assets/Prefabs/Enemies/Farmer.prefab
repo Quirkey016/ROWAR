@@ -352,6 +352,7 @@ MonoBehaviour:
   gun: {fileID: 5004809737608375950}
   projectile: {fileID: 502727698774953845, guid: 5abf5e92451104249846d14038efa158, type: 3}
   attackSpeed: 2.5
+  animator: {fileID: 0}
 --- !u!114 &-7390840552622219527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,6 +392,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   blocked: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!61 &-3000750289681293028
 BoxCollider2D:
   m_ObjectHideFlags: 0

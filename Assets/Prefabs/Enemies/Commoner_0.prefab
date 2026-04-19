@@ -140,6 +140,7 @@ MonoBehaviour:
   gun: {fileID: 0}
   projectile: {fileID: 0}
   attackSpeed: 2.5
+  animator: {fileID: 0}
 --- !u!114 &5136374193569184084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,3 +180,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   blocked: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64

@@ -5720,6 +5720,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   blocked: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &788656564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7257,6 +7260,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   blocked: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &921733776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7637,6 +7643,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   blocked: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &953938843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12280,6 +12289,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   blocked: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1454714995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15105,7 +15117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1715213979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground\
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16087,6 +16099,18 @@ PrefabInstance:
     - target: {fileID: 5264214646752540067, guid: b992accc0b4d6b7489347a4fd657e8ed, type: 3}
       propertyPath: m_Name
       value: commoner punch_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555685539330356642, guid: b992accc0b4d6b7489347a4fd657e8ed, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9031024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555685539330356642, guid: b992accc0b4d6b7489347a4fd657e8ed, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555685539330356642, guid: b992accc0b4d6b7489347a4fd657e8ed, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8906069208808771134, guid: b992accc0b4d6b7489347a4fd657e8ed, type: 3}
       propertyPath: m_LocalPosition.x
