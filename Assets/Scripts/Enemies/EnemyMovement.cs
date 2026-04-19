@@ -16,6 +16,7 @@ public class EnemyMovement : MonoBehaviour
     public float dashCooldown = 3f;
     public float detectionRadius = 1.5f;
     private bool distanceToGround;
+    public float toGroundCheck = 1.8f;
     public LayerMask hazardLayer;
     public bool blocked;
     private Rigidbody2D rb;
@@ -56,7 +57,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Gravity()
     {
-        distanceToGround = Physics2D.OverlapCircle(transform.position, 1.8f, groundLayer);
+        distanceToGround = Physics2D.OverlapCircle(transform.position, toGroundCheck, groundLayer);
         
         if (!distanceToGround)  //gravity
             transform.position = (Vector2)transform.position + Vector2.down * .15f;
@@ -170,6 +171,6 @@ public class EnemyMovement : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, detectionRadius); 
         Gizmos.color = Color.white;
-        Gizmos.DrawWireSphere(transform.position, 1.8f);
+        Gizmos.DrawWireSphere(transform.position, toGroundCheck);
     }
 }
