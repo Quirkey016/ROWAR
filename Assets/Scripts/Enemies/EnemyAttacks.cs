@@ -59,7 +59,9 @@ namespace Enemies
         {
             var posThis = transform.position;
             var posPlayer = playerRef.transform.position;
-        
+
+
+            
             var distance = Vector2.Distance(posThis, posPlayer);
             Vector3 direction = posPlayer - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -67,6 +69,7 @@ namespace Enemies
             if (!(distance <= sight )) return;
             gun.transform.rotation = Quaternion.Euler(0.0f, 0.0f, transform.rotation.eulerAngles.z + angle);
             if (!_canFire) return;
+            animator.SetBool("Throw", true);
             Instantiate(projectile, transform.position, gun.transform.rotation);
             _canFire = false;
             StartCoroutine(ShootCooldown(attackSpeed)); //this number changes the rate of fire on the enemies
