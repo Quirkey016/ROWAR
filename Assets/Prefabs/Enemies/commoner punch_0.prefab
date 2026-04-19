@@ -283,6 +283,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   blocked: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &5728924005700387677
 GameObject:
   m_ObjectHideFlags: 0
