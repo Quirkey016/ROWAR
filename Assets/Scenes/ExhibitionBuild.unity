@@ -3358,6 +3358,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0cefce7d5234ca3429f5eb96569bfeba, type: 2}
+    - target: {fileID: 3219324701419984938, guid: 4dee2039c3d48c84cb96a2bdd8911098, type: 3}
+      propertyPath: mS
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3625218558638471985, guid: 4dee2039c3d48c84cb96a2bdd8911098, type: 3}
       propertyPath: m_SortingOrder
       value: 1
