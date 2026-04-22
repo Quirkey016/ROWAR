@@ -4,7 +4,7 @@ using UnityEngine;
 public class SpikeFall : MonoBehaviour
 {
     public GameObject playerRefer;
-    public int trap = 500;
+    public int trap = 100;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
