@@ -1,0 +1,35 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	73172129	Spellcasting_States			\Default Work Unit\Spellcasting_States	
+	2891784818	Walking_Surface			\Default Work Unit\Walking_Surface	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Spellcasting_States			
+	2470714719	Spellcasting_Staff	Spellcasting_States			
+	3956951341	Spellcasting_Grimoire	Spellcasting_States			
+	748895195	None	Walking_Surface			
+	1127618254	Marble	Walking_Surface			
+	1216965916	Stone	Walking_Surface			
+	2058049674	Wood	Walking_Surface			
+	2195636714	Dirt	Walking_Surface			
+	4248645337	Grass	Walking_Surface			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4073739390	Bus_Volume_Footsteps			\Default Work Unit\Bus_Volume_Footsteps	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	369122955	Modulator Envelope (Custom)				
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\Enemies	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Player\Footsteps	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4160437992	Spells			\Default Work Unit\Master Audio Bus\Player\Spells	
+
+Effect plug-ins	ID	Name	Type				Notes
+	932005505	Gain (Custom)	Wwise Gain			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
