@@ -1,17 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e3b55d69d8f5d74b85e81ba0ed19d25, type: 3}
-  m_Name: 0241EFBA-31DE-486A-BB7E-DA536386EB4F
-  m_EditorClassIdentifier: 
-  objectName: SurfaceType
-  id: 63790334
-  guid: 0241EFBA-31DE-486A-BB7E-DA536386EB4F
+version https://git-lfs.github.com/spec/v1
+oid sha256:77d71e9d4394f6d927f1fb38f81df687a1b4ceae9a136a3dd92dba63b0fbf844
+size 528
