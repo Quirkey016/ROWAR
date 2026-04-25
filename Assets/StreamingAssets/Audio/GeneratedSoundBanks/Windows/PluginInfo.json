@@ -4,11 +4,32 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
-    "LibName": "Wwise Gain",
-    "LibId": "9109507",
+    "LibName": "Wwise Parametric EQ",
+    "LibId": "6881283",
     "Type": "Effect",
-    "DLL": "AkGain",
-    "StaticLib": "AkGainFX"
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
+   },
+   {
+    "LibName": "Wwise RoomVerb",
+    "LibId": "7733251",
+    "Type": "Effect",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "LibName": "Wwise Time Stretch",
+    "LibId": "8519683",
+    "Type": "Effect",
+    "DLL": "AkTimeStretch",
+    "StaticLib": "AkTimeStretchFX"
+   },
+   {
+    "LibName": "Wwise Synth One",
+    "LibId": "9699330",
+    "Type": "Source",
+    "DLL": "AkSynthOne",
+    "StaticLib": "AkSynthOneSource"
    },
    {
     "LibName": "System",
@@ -21,6 +42,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{28E59864-4735-4FDC-5024-026DD8CB9D3C}"
+  "FileHash": "{C17708B1-9CA2-C69C-0D93-F9C7A5ADC2FB}"
  }
 }

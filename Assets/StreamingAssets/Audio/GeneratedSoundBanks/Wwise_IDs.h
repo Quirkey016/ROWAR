@@ -15,9 +15,18 @@ namespace AK
     {
         static const AkUniqueID FIREBOLT_IMPACT = 3407841817U;
         static const AkUniqueID FS_PLAYER = 157611648U;
+        static const AkUniqueID PLAY_RAIN = 2838936948U;
+        static const AkUniqueID PLAY_SHIELD_BREAK = 2516359593U;
+        static const AkUniqueID PLAY_SHIELD_IMPACT = 1736150122U;
+        static const AkUniqueID PLAY_SHIELD_LOOP = 3932449222U;
+        static const AkUniqueID PLAY_SHIELD_SUMMON = 953323285U;
+        static const AkUniqueID PLAY_WEAPON_DRAW = 2618147347U;
+        static const AkUniqueID PLAY_WEAPON_IMPACT = 3739832523U;
         static const AkUniqueID STAFF_FIREBOLT_CAST = 2128022953U;
         static const AkUniqueID START_FIREBOLT_MIDAIR = 1975303464U;
         static const AkUniqueID STOP_FIREBOLT_MIDAIR = 692113986U;
+        static const AkUniqueID STOP_RAIN = 3206237490U;
+        static const AkUniqueID STOP_SHIELD_LOOP = 4119716168U;
     } // namespace EVENTS
 
     namespace STATES
@@ -79,11 +88,16 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENT = 77978275U;
+        static const AkUniqueID BIRDS = 352130103U;
         static const AkUniqueID ENEMIES = 2242381963U;
-        static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID ENEMY_ATTACK = 1781417190U;
+        static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID OTHER_AMIENT = 2042825534U;
+        static const AkUniqueID PC_FOOTSTEPS = 3144539142U;
+        static const AkUniqueID PC_SPELLS = 966360136U;
         static const AkUniqueID PLAYER = 1069431850U;
-        static const AkUniqueID SPELLS = 4160437992U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

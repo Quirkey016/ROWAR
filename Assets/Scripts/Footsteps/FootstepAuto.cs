@@ -11,29 +11,25 @@ public class FootstepAuto : MonoBehaviour
     public float minSpeed = 0.1f;
 
     private WwiseFootsteps wwiseFootsteps;
-    private Rigidbody2D rb;
     private Vector2 lastPosition;
     private float accumulatedDistance;
 
     void Awake()
     {
         wwiseFootsteps = GetComponent<WwiseFootsteps>();
-        rb = GetComponent<Rigidbody2D>();
         lastPosition = transform.position;
     }
 
     void Update()
     {
-        // Horizontal movement only
         Vector2 current = transform.position;
         float moved = Mathf.Abs(current.x - lastPosition.x);
         lastPosition = current;
 
-        // Skip if below min speed
         if (moved < minSpeed * Time.deltaTime)
             return;
 
-        // Skip if airborne — check downward raycast
+        // Grounded check using WwiseFootsteps settings
         RaycastHit2D hit = Physics2D.Raycast(
             transform.position,
             Vector2.down,

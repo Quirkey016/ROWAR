@@ -4,11 +4,32 @@
   "BasePlatform": "Mac",
   "PluginLibs": [
    {
-    "LibName": "Wwise Gain",
-    "LibId": "9109507",
+    "LibName": "Wwise Parametric EQ",
+    "LibId": "6881283",
     "Type": "Effect",
-    "DLL": "AkGain",
-    "StaticLib": "AkGainFX"
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
+   },
+   {
+    "LibName": "Wwise RoomVerb",
+    "LibId": "7733251",
+    "Type": "Effect",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "LibName": "Wwise Time Stretch",
+    "LibId": "8519683",
+    "Type": "Effect",
+    "DLL": "AkTimeStretch",
+    "StaticLib": "AkTimeStretchFX"
+   },
+   {
+    "LibName": "Wwise Synth One",
+    "LibId": "9699330",
+    "Type": "Source",
+    "DLL": "AkSynthOne",
+    "StaticLib": "AkSynthOneSource"
    },
    {
     "LibName": "System",
@@ -21,6 +42,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{133A25D6-7AA0-81CE-5F3C-AD3F190E20C5}"
+  "FileHash": "{E60D5B58-D02B-1457-BD07-1F06B6FCC621}"
  }
 }

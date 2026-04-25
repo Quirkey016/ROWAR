@@ -11,13 +11,20 @@ public class WwiseFootsteps : MonoBehaviour
     public float raycastDistance = 1.2f;
     public LayerMask groundMask = ~0;
 
-    private string currentSurface = "Grass";
+    [Header("Timing")]
+    public float minStepInterval = 0.3f;
+
+    private string currentSurface;
+    private float lastStepTime;
 
     public void PlayFootstep()
     {
+        if (Time.time - lastStepTime < minStepInterval) return;
+
         DetectSurface();
         AkUnitySoundEngine.SetSwitch("SurfaceType", currentSurface, gameObject);
         AkUnitySoundEngine.PostEvent(footstepEvent, gameObject);
+        lastStepTime = Time.time;
     }
 
     private void DetectSurface()

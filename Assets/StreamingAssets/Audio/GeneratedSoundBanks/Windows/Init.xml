@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D2CD99A2-A431-23A6-9A10-9D2634797D6E}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BB30BCD4-99E2-73DF-0BF6-0078EB889F7E}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
-				<Custom>
-					<Plugin Id="932005505" Name="Gain (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Footsteps\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{C29CA0AE-3785-4558-8663-42A72AB037ED}" LibName="Wwise Gain" LibId="9109507"/>
-				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{05AD3A1D-286A-40CA-AD58-08A2D23DDCBD}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{9ECFE7DA-C27F-48EC-950E-75A4320FF98A}" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FBCB2B89-8520-4077-AFAA-38EA51B8381D}" Color="13"/>
+				<Bus Id="352130103" Name="Birds" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Birds" GUID="{BF66C663-C19C-4422-8754-CBD5DB3F71B5}" Color="13"/>
+				<Bus Id="966360136" Name="PC_Spells" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\PC_Spells" GUID="{973FEBEE-4CB3-4152-A168-F153585CB51D}" Color="13"/>
 				<Bus Id="1069431850" Name="Player" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player" GUID="{FD1766BC-DE9A-402A-AEC8-655256B6A1B5}" Color="13"/>
+				<Bus Id="1229948536" Name="Environment" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Environment" GUID="{9FE91AFD-18F1-491A-B8EB-4DD569D9AF5B}" Color="13"/>
+				<Bus Id="1781417190" Name="Enemy_Attack" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Enemies\Enemy_Attack" GUID="{F226A996-4462-4F0A-9A91-0DFE759902EB}" Color="13"/>
+				<Bus Id="2042825534" Name="Other_Amient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Other_Amient" GUID="{E914185A-947D-41C8-BC6B-018E1CEB71CD}" Color="13"/>
 				<Bus Id="2242381963" Name="Enemies" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Enemies" GUID="{DE1B1604-25BA-4452-9143-1EFB7E545386}" Color="13"/>
-				<Bus Id="2385628198" Name="Footsteps" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Footsteps" GUID="{90D500D5-63DD-4CF4-BB66-6D5D676AF39F}" Color="13">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="932005505"/>
-						</Custom>
-					</PluginRefs>
-				</Bus>
+				<Bus Id="3144539142" Name="PC_Footsteps" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\PC_Footsteps" GUID="{0E4A253D-CE73-4183-BC1E-A6856D42C1B8}" Color="13"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Color="13"/>
-				<Bus Id="4160437992" Name="Spells" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Spells" GUID="{02FE8309-0D5B-4689-A634-80CC19A1B371}" Color="13"/>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="4073739390" Name="Bus_Volume_Footsteps" ObjectPath="\Game Parameters\Default Work Unit\Bus_Volume_Footsteps" GUID="{C104E2FC-DDC2-43F2-9280-969FA3A8971F}"/>
@@ -59,5 +55,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5ADE4AD5-D465-E4AD-8989-7FB8818A7299}</FileHash>
+	<FileHash>{D79A4365-F991-6413-4969-D4C4423DE162}</FileHash>
 </SoundBanksInfo>
