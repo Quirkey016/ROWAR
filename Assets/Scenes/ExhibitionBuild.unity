@@ -618,6 +618,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e915ea1d8a1fe34f92f739c533e0007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &77777871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77777857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6d5f79bbeea5468dbd00a8551dcc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepAuto
+  stepDistance: 2
+  minSpeed: 0.1
+--- !u!114 &77777872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77777857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2d9eda83423d14ca55ff1c00d7672b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WwiseFootsteps
+  footstepEvent: FS_Player
+  defaultSurface: Grass
+  raycastDistance: 1.2
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &81284033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,7 +3449,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5950565161512193375, guid: 4dee2039c3d48c84cb96a2bdd8911098, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 77777872}
+    - targetCorrespondingSourceObject: {fileID: 5950565161512193375, guid: 4dee2039c3d48c84cb96a2bdd8911098, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 77777871}
   m_SourcePrefab: {fileID: 100100000, guid: 4dee2039c3d48c84cb96a2bdd8911098, type: 3}
 --- !u!1 &403655093
 GameObject:

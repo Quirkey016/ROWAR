@@ -22,11 +22,11 @@
         },
         {
             "id": "DeploymentPlatforms",
-            "valueId": "Windows"
+            "valueId": "Linux"
         },
         {
             "id": "DeploymentPlatforms",
-            "valueId": "Linux"
+            "valueId": "Windows"
         }
     ]
 }
