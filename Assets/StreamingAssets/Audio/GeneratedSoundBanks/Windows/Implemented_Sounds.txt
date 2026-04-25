@@ -1,0 +1,47 @@
+Event	ID	Name			Wwise Object Path	Notes
+	157611648	FS_Player			\Default Work Unit\Player_Character\Footsteps\FS_Player	
+	692113986	Stop_Firebolt_Midair			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Spells_Midair\Stop_Firebolt_Midair	
+	1975303464	Start_Firebolt_Midair			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Spells_Midair\Start_Firebolt_Midair	
+	2128022953	Staff_Firebolt_Cast			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Staff_Casting\Staff_Firebolt_Cast	
+	3407841817	Firebolt_Impact			\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Spells_Impact\Firebolt_Impact	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	63790334	SurfaceType			\Default Work Unit\PC_Switches\FootSteps\SurfaceType	
+
+Switch	ID	Name	Switch Group			Notes
+	982177701	Hay	SurfaceType			
+	4248645337	Grass	SurfaceType			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4073739390	Bus_Volume_Footsteps			\Default Work Unit\Bus_Volume_Footsteps	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	369122955	Modulator Envelope (Custom)				
+	809926113	Modulator Envelope (Custom)				
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\Enemies	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Player\Footsteps	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4160437992	Spells			\Default Work Unit\Master Audio Bus\Player\Spells	
+
+Effect plug-ins	ID	Name	Type				Notes
+	544780433	New_Gain	Wwise Gain			
+	932005505	Gain (Custom)	Wwise Gain			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	107394852	Grass_Step_05	.cache\DD\{DDF7EFE6-4135-75A2-79DA-31E0935EB073}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_05		96336
+	192150934	Firebolt_Midair	.cache\AF\{AF8AEF49-BFE9-E34F-D14F-E9FEA1717227}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Firebolt\Firebolt_Midair		834626
+	206481213	Grass_Step_06	.cache\3A\{3A1EFA60-FC88-C4CB-E840-6E5FF6FC1597}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_06		57848
+	270724969	Walking_rocks_leaves003	.cache\AA\{AA39C4BE-4F02-7B53-56FE-7E061432E76C}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003		135004
+	328295729	Firebolt_Cast	.cache\98\{98EC8A56-7250-8F06-876E-EED131AA8CFC}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Firebolt\Firebolt_Cast		94336
+	528418868	Grass_Step_03	.cache\BF\{BFCE7EBD-E964-E12E-7C9B-70DB610FD015}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_03		58476
+	603186303	Walking_rocks_leaves003_03	.cache\3C\{3C313C12-497D-2514-909E-B9DE6C298C3F}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003_03		127876
+	773690356	Firebolt_Impact	.cache\94\{940BC4EA-6285-FBFE-C59A-F05A0954B97B}.wem		\Containers\Default Work Unit\Player_Character\PC_Spells\Spells\Firebolt\Firebolt_Impact		36794
+	788946091	Walking_rocks_leaves003_01	.cache\8A\{8AB1380C-B08F-3128-D100-B514A35EC295}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003_01		103020
+	833372557	Grass_Step_01	.cache\D7\{D7CB1288-35D2-F606-4C19-C0E443844C68}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_01		59168
+	850747584	Walking_rocks_leaves003_02	.cache\D5\{D572A571-BB72-0256-E77F-D71383369372}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Hay\Walking_rocks_leaves003_02		92476
+	852890011	Grass_Step_02	.cache\F9\{F93F8D6E-8FF5-B83E-84A5-F09AB4569FB6}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_02		76120
+	1031066534	Grass_Step_04	.cache\CF\{CFD35702-D7CD-7C0D-97BC-6CB2B9EF8A9F}.wem		\Containers\Default Work Unit\Player_Character\PC_Movement\Footsteps_Switch_Container\Footsteps_Grass_Dirt\Grass_Step_04		44724
+

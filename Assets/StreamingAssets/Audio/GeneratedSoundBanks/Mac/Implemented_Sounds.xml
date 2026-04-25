@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="543157906" Type="User" GUID="{4D6F909A-9B6F-494E-A63E-5B4C0AAF8D4A}" Language="SFX" Hash="{8CC523CB-0272-0E6A-5FA8-22EB0BC7AB8A}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Implemented_Sounds</ObjectPath>
+			<ShortName>Implemented_Sounds</ShortName>
+			<Path>Implemented_Sounds.bnk</Path>
+			<Media>
+				<File Id="107394852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves002.wav</ShortName>
+					<CachePath>DD/{DDF7EFE6-4135-75A2-79DA-31E0935EB073}.wem</CachePath>
+				</File>
+				<File Id="192150934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Firebolt_Midair_Firebolt_Midair_Output.wav</ShortName>
+					<CachePath>AF/{AF8AEF49-BFE9-E34F-D14F-E9FEA1717227}.wem</CachePath>
+				</File>
+				<File Id="206481213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves002.wav</ShortName>
+					<CachePath>3A/{3A1EFA60-FC88-C4CB-E840-6E5FF6FC1597}.wem</CachePath>
+				</File>
+				<File Id="270724969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves003.wav</ShortName>
+					<CachePath>AA/{AA39C4BE-4F02-7B53-56FE-7E061432E76C}.wem</CachePath>
+				</File>
+				<File Id="328295729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Firebolt_Cast_Firebolt_Casting_Output.wav</ShortName>
+					<CachePath>98/{98EC8A56-7250-8F06-876E-EED131AA8CFC}.wem</CachePath>
+				</File>
+				<File Id="528418868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves002.wav</ShortName>
+					<CachePath>BF/{BFCE7EBD-E964-E12E-7C9B-70DB610FD015}.wem</CachePath>
+				</File>
+				<File Id="603186303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves003.wav</ShortName>
+					<CachePath>3C/{3C313C12-497D-2514-909E-B9DE6C298C3F}.wem</CachePath>
+				</File>
+				<File Id="773690356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Firebolt_Impact_V2_Firebolt_Impact_Output.V2.wav</ShortName>
+					<CachePath>94/{940BC4EA-6285-FBFE-C59A-F05A0954B97B}.wem</CachePath>
+				</File>
+				<File Id="788946091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves003.wav</ShortName>
+					<CachePath>8A/{8AB1380C-B08F-3128-D100-B514A35EC295}.wem</CachePath>
+				</File>
+				<File Id="833372557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves002.wav</ShortName>
+					<CachePath>D7/{D7CB1288-35D2-F606-4C19-C0E443844C68}.wem</CachePath>
+				</File>
+				<File Id="850747584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves003.wav</ShortName>
+					<CachePath>D5/{D572A571-BB72-0256-E77F-D71383369372}.wem</CachePath>
+				</File>
+				<File Id="852890011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves002.wav</ShortName>
+					<CachePath>F9/{F93F8D6E-8FF5-B83E-84A5-F09AB4569FB6}.wem</CachePath>
+				</File>
+				<File Id="1031066534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking_rocks_leaves002.wav</ShortName>
+					<CachePath>CF/{CFD35702-D7CD-7C0D-97BC-6CB2B9EF8A9F}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="932005505" Name="Gain (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Footsteps\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{C29CA0AE-3785-4558-8663-42A72AB037ED}" LibName="Wwise Gain" LibId="9109507"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="544780433" Name="New_Gain" ObjectPath="\Effects\Factory Effects\Tremolo\New_Gain" GUID="{B0E6A577-C759-442B-8810-82286E19A841}" LibName="Wwise Gain" LibId="9109507"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3407841817" Name="Firebolt_Impact" ObjectPath="\Events\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Spells_Impact\Firebolt_Impact" GUID="{D79732DC-0E13-4F96-8AA4-C71AF59314FA}" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.38226536" DurationMax="0.38226536">
+					<MediaRefs>
+						<MediaRef Id="773690356"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="157611648" Name="FS_Player" ObjectPath="\Events\Default Work Unit\Player_Character\Footsteps\FS_Player" GUID="{DD489504-1851-41EE-A9CB-F274D5CDAE22}" DurationType="OneShot" DurationMin="0.23244019" DurationMax="0.7026526">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="63790334" Id="4248645337" GUID="{D5D85233-FE87-4B6D-B770-EB20145A711C}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="107394852"/>
+								<MediaRef Id="206481213"/>
+								<MediaRef Id="528418868"/>
+								<MediaRef Id="833372557"/>
+								<MediaRef Id="852890011"/>
+								<MediaRef Id="1031066534"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="544780433"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="63790334" Id="982177701" GUID="{BBD2E888-A686-486D-A09A-18384F0CF4B8}"/>
+							<MediaRefs>
+								<MediaRef Id="270724969"/>
+								<MediaRef Id="603186303"/>
+								<MediaRef Id="788946091"/>
+								<MediaRef Id="850747584"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="544780433"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="63790334" Id="4248645337" GUID="{D5D85233-FE87-4B6D-B770-EB20145A711C}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="107394852"/>
+								<MediaRef Id="206481213"/>
+								<MediaRef Id="528418868"/>
+								<MediaRef Id="833372557"/>
+								<MediaRef Id="852890011"/>
+								<MediaRef Id="1031066534"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="544780433"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="63790334" Id="982177701" GUID="{BBD2E888-A686-486D-A09A-18384F0CF4B8}"/>
+							<MediaRefs>
+								<MediaRef Id="270724969"/>
+								<MediaRef Id="603186303"/>
+								<MediaRef Id="788946091"/>
+								<MediaRef Id="850747584"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="544780433"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2128022953" Name="Staff_Firebolt_Cast" ObjectPath="\Events\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Staff_Casting\Staff_Firebolt_Cast" GUID="{DF237C11-1161-4A09-A62C-15DF20728998}" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.98167384" DurationMax="0.98167384">
+					<MediaRefs>
+						<MediaRef Id="328295729"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1975303464" Name="Start_Firebolt_Midair" ObjectPath="\Events\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Spells_Midair\Start_Firebolt_Midair" GUID="{38142CCD-F1EB-4E5D-A1EA-C3202D2FFDBA}" MaxAttenuation="100" DurationType="OneShot" DurationMin="8.693024" DurationMax="8.693024">
+					<MediaRefs>
+						<MediaRef Id="192150934"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="692113986" Name="Stop_Firebolt_Midair" ObjectPath="\Events\Default Work Unit\Player_Character\PC_Spell\Spell_Events\Spellcasting\Spells_Midair\Stop_Firebolt_Midair" GUID="{EBE1E8EC-1DF8-4890-BA9C-F7F9B606E5B5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="192150934"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player" GUID="{FD1766BC-DE9A-402A-AEC8-655256B6A1B5}" Color="13"/>
+				<Bus Id="2242381963" Name="Enemies" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Enemies" GUID="{DE1B1604-25BA-4452-9143-1EFB7E545386}" Color="13"/>
+				<Bus Id="2385628198" Name="Footsteps" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Footsteps" GUID="{90D500D5-63DD-4CF4-BB66-6D5D676AF39F}" Color="13">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="932005505"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Color="13"/>
+				<Bus Id="4160437992" Name="Spells" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Spells" GUID="{02FE8309-0D5B-4689-A634-80CC19A1B371}" Color="13"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="4073739390" Name="Bus_Volume_Footsteps" ObjectPath="\Game Parameters\Default Work Unit\Bus_Volume_Footsteps" GUID="{C104E2FC-DDC2-43F2-9280-969FA3A8971F}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="63790334" Name="SurfaceType" ObjectPath="\Switches\Default Work Unit\PC_Switches\FootSteps\SurfaceType" GUID="{0241EFBA-31DE-486A-BB7E-DA536386EB4F}">
+					<Switches>
+						<Switch Id="982177701" Name="Hay" ObjectPath="\Switches\Default Work Unit\PC_Switches\FootSteps\SurfaceType\Hay" GUID="{BBD2E888-A686-486D-A09A-18384F0CF4B8}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\PC_Switches\FootSteps\SurfaceType\Grass" GUID="{D5D85233-FE87-4B6D-B770-EB20145A711C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8497AF49-3B33-318F-D319-E0A1883F6933}</FileHash>
+</SoundBanksInfo>

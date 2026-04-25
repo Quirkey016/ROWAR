@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C021EACC-A847-AF48-5DAA-A3EB8D5BD693}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="932005505" Name="Gain (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Footsteps\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{C29CA0AE-3785-4558-8663-42A72AB037ED}" LibName="Wwise Gain" LibId="9109507"/>
+				</Custom>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{05AD3A1D-286A-40CA-AD58-08A2D23DDCBD}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{9ECFE7DA-C27F-48EC-950E-75A4320FF98A}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player" GUID="{FD1766BC-DE9A-402A-AEC8-655256B6A1B5}" Color="13"/>
+				<Bus Id="2242381963" Name="Enemies" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Enemies" GUID="{DE1B1604-25BA-4452-9143-1EFB7E545386}" Color="13"/>
+				<Bus Id="2385628198" Name="Footsteps" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Footsteps" GUID="{90D500D5-63DD-4CF4-BB66-6D5D676AF39F}" Color="13">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="932005505"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Color="13"/>
+				<Bus Id="4160437992" Name="Spells" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Player\Spells" GUID="{02FE8309-0D5B-4689-A634-80CC19A1B371}" Color="13"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="4073739390" Name="Bus_Volume_Footsteps" ObjectPath="\Game Parameters\Default Work Unit\Bus_Volume_Footsteps" GUID="{C104E2FC-DDC2-43F2-9280-969FA3A8971F}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="73172129" Name="Spellcasting_States" ObjectPath="\States\Default Work Unit\Spellcasting_States" GUID="{7F48900D-A2C0-44DF-B52F-3DE78A5E5943}" Color="12">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Spellcasting_States\None" GUID="{5751BEC3-688A-4CBA-BE86-023D7B718C8F}" Color="12"/>
+						<State Id="2470714719" Name="Spellcasting_Staff" ObjectPath="\States\Default Work Unit\Spellcasting_States\Spellcasting_Staff" GUID="{8889528B-8251-4ACE-B9EA-5E9CEDF3CEBF}" Color="24"/>
+						<State Id="3956951341" Name="Spellcasting_Grimoire" ObjectPath="\States\Default Work Unit\Spellcasting_States\Spellcasting_Grimoire" GUID="{D409854E-B984-4FE4-898B-261C560BBB7D}" Color="25"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2891784818" Name="Walking_Surface" ObjectPath="\States\Default Work Unit\Walking_Surface" GUID="{94502681-283E-4135-B999-210AFB3ABF45}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Walking_Surface\None" GUID="{CBE23F21-88DE-478C-9E11-7547F76A8DD4}"/>
+						<State Id="1127618254" Name="Marble" ObjectPath="\States\Default Work Unit\Walking_Surface\Marble" GUID="{AE3C18DB-0901-4E43-A1E3-F487614FFFD6}"/>
+						<State Id="1216965916" Name="Stone" ObjectPath="\States\Default Work Unit\Walking_Surface\Stone" GUID="{E1BDA652-30A3-4686-A38C-3EB1D2D5FABE}"/>
+						<State Id="2058049674" Name="Wood" ObjectPath="\States\Default Work Unit\Walking_Surface\Wood" GUID="{38207010-0619-4791-B3A3-FAA4D844F7B2}"/>
+						<State Id="2195636714" Name="Dirt" ObjectPath="\States\Default Work Unit\Walking_Surface\Dirt" GUID="{68B358A3-4C41-42D1-80FC-6F36B1960DAE}"/>
+						<State Id="4248645337" Name="Grass" ObjectPath="\States\Default Work Unit\Walking_Surface\Grass" GUID="{1F0FA531-D83C-4315-A40E-28678A3B6FDB}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="63790334" Name="SurfaceType" ObjectPath="\Switches\Default Work Unit\PC_Switches\FootSteps\SurfaceType" GUID="{0241EFBA-31DE-486A-BB7E-DA536386EB4F}">
+					<Switches>
+						<Switch Id="982177701" Name="Hay" ObjectPath="\Switches\Default Work Unit\PC_Switches\FootSteps\SurfaceType\Hay" GUID="{BBD2E888-A686-486D-A09A-18384F0CF4B8}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\PC_Switches\FootSteps\SurfaceType\Grass" GUID="{D5D85233-FE87-4B6D-B770-EB20145A711C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0A5C05F0-F13B-FCA4-7847-CEBE38E2B5ED}</FileHash>
+</SoundBanksInfo>
